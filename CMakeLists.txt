@@ -35,6 +35,4 @@ add_executable(pid src/pid.cpp)
 target_link_libraries(pid ${catkin_LIBRARIES})
 add_dependencies(pid trajectory_tracking_generate_messages_cpp)
 
-add_executable(show_traj src/show_traj.cpp)
-target_link_libraries(show_traj ${catkin_LIBRARIES})
-add_dependencies(show_traj trajectory_tracking_generate_messages_cpp)
+
