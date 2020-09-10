@@ -1,3 +1,79 @@
 # trajectory_tracking
-ROS package of a trajectory_tracking GAZEBO simulation using turtlebot3 robot model based on three diffrent controllers (PID, Backstepping, Feedbak linearization)
-# trajectory_tracking
+
+![Project Image](project-image-url)
+
+> ROS based trajectory_tracking GAZEBO simulation.
+
+---
+
+### Table of Contents
+
+- [Description](#description)
+- [Installation](#Installation)
+- [How To Use](#how-to-use)
+- [Author Info](#author-info)
+
+---
+
+## Description
+
+A simple ROS package of a trajectory_tracking GAZEBO simulation using turtlebot3 robot model based on three diffrent controllers (PID, Backstepping, Feedbak linearization) .
+
+[Back To The Top](#trajectory_tracking)
+
+---
+
+## Installation
+
+1- Go to your catkin_ws directory
+```shell
+    cd ~/catkin_ws/src
+```
+2- Clone the repository
+```shell
+    git clone https://github.com/alla-eddine/trajectory_tracking.git
+```
+3- install by 
+```shell
+    cd ..
+    catkin_make
+```
+---
+
+## How To Use
+
+1- Go to your catkin_ws directory
+```shell
+    cd ~/catkin_ws
+    catkin_make
+```
+2- in the first terminal tap run
+```shell
+    roslaunch trajectory_tracking gazebo_tb3_sim.launch
+```
+3- in the second terminal tap run
+
+    a- for backstepping controller run 
+    ```shell
+        roslaunch trajectory_tracking backstepping.launch
+    ```
+    b- for feedback linearization controller run 
+    ```shell
+        roslaunch trajectory_tracking feedback.launch
+    ```
+    c- for pid controller run 
+    ```shell
+        roslaunch trajectory_tracking pid.launch
+    ```
+[Back To The Top](#trajectory_tracking)
+
+---
+
+
+
+## Author Info
+
+- Twitter - [@D_allaeddine](https://twitter.com/D_allaeddine)
+- Website - [ROS in Arabic](arabic-ros.eb2a.com)
+
+[Back To The Top](#trajectory_tracking)
