@@ -17,7 +17,7 @@
 
 ## Description
 
-A simple ROS package of a trajectory_tracking GAZEBO simulation using turtlebot3 robot model based on three diffrent controllers (PID, Backstepping, Feedbak linearization) .
+A simple ROS package of a trajectory_tracking GAZEBO simulation using turtlebot3 robot model based on three diffrent controllers (PID, Backstepping, Feedbak linearization, model predictive) .
 
 [Back To The Top](#trajectory_tracking)
 
@@ -53,18 +53,23 @@ A simple ROS package of a trajectory_tracking GAZEBO simulation using turtlebot3
 ```
 3- in the second terminal tap run
 
-    a- for backstepping controller run 
+    A- for backstepping controller run 
     ```shell
         roslaunch trajectory_tracking backstepping.launch
     ```
-    b- for feedback linearization controller run 
+    B- for feedback linearization controller run 
     ```shell
         roslaunch trajectory_tracking feedback.launch
     ```
-    c- for pid controller run 
+    C- for pid controller run 
     ```shell
         roslaunch trajectory_tracking pid.launch
     ```
+    D- for model predictive controller run 
+    ```shell
+        roslaunch trajectory_tracking mpc.launch
+    ```
+
 [Back To The Top](#trajectory_tracking)
 
 ---
