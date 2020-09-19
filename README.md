@@ -1,6 +1,6 @@
 # trajectory_tracking
 
-![Project Image](project-image-url)
+![Project Image](https://img.youtube.com/vi/8TWlnW2JLhw&t/0.jpg)](https://www.youtube.com/watch?v=8TWlnW2JLhw&t)
 
 > ROS based trajectory_tracking GAZEBO simulation.
 
@@ -53,22 +53,22 @@ A simple ROS package of a trajectory_tracking GAZEBO simulation using turtlebot3
 ```
 3- in the second terminal tap run
 
-    A- for backstepping controller run 
-    ```shell
-        roslaunch trajectory_tracking backstepping.launch
-    ```
-    B- for feedback linearization controller run 
-    ```shell
-        roslaunch trajectory_tracking feedback.launch
-    ```
-    C- for pid controller run 
-    ```shell
-        roslaunch trajectory_tracking pid.launch
-    ```
-    D- for model predictive controller run 
-    ```shell
-        roslaunch trajectory_tracking mpc.launch
-    ```
+A- for backstepping controller run 
+```shell
+    roslaunch trajectory_tracking backstepping.launch
+```
+B- for feedback linearization controller run 
+```shell
+    roslaunch trajectory_tracking feedback.launch
+```
+C- for pid controller run 
+```shell
+    roslaunch trajectory_tracking pid.launch
+```
+D- for model predictive controller run 
+```shell
+    roslaunch trajectory_tracking mpc.launch
+```
 
 [Back To The Top](#trajectory_tracking)
 
